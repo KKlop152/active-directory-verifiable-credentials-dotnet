@@ -48,13 +48,13 @@
       "apiVersion": "2020-06-01",
       "name": "[variables('appServicePlanPortalName')]",
       "location": "[resourceGroup().location]",
-      "sku": {
-        "name": "B1",
-        "tier": "Basic",
-        "size": "B1",
-        "family": "B",
-        "capacity": 1
-      },
+    "sku": {
+    "name": "F1",
+    "tier": "Free",
+    "size": "F1",
+    "family": "F",
+    "capacity": 1
+    },
       "kind": "app",
       "properties": {
         "perSiteScaling": false,
